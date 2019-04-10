@@ -26,7 +26,7 @@ state = {
 
 	    searchProperty = async (address, citystatezip) => {
         try {
-            const property = await fetch('http://localhost:8080/property/search', {
+            const property = await fetch('http://localhost:8888/property/search', {
                 method: 'post',
                 headers: {
                     'Accept': 'application/json',
